@@ -1,0 +1,42 @@
+@import "../../../../styles/theme/varibales";
+.folder-container{
+  margin-left: -15px;
+}
+
+.modal-container{
+  padding: 20px;
+  text-align: center;
+  h2{
+    margin-bottom: 20px;
+  }
+}
+.folders-title{
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.folder{
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+  padding-left: 2px;
+  border:none;
+  font-size: 17px;
+  cursor: pointer;
+  .delete-icon{
+    position: absolute;
+    right: 0;
+    top:12%;
+  }
+  &:hover{
+    background-color: $green-main;
+    color: white;
+  }
+  &.active{
+    background-color: $green-submain;
+    color: white;
+  }
+
+  i{
+    margin-right: 5px;
+  }
+}

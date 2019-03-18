@@ -1,0 +1,74 @@
+@import '../../../../../styles/theme/varibales';
+
+.add-answer {
+  margin-bottom: 15px;
+  button {
+    margin-left: 20px;
+  }
+
+}
+
+.question-text {
+  margin: 0 20px;
+}
+
+.answer-label {
+  margin-left: 20px;
+}
+
+.answer-form-group {
+  position: relative;
+  padding: 0 20px;
+  padding-top: 20px;
+
+  .form-control {
+    padding-right: 30px;
+  }
+  .checkbox {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    transform: translate(-70%, 0);
+
+  }
+  .btn-cross {
+    position: absolute;
+    left: 93%;
+    top: 50%;
+    background: transparent;
+    color: $btn-red;
+    border: none;
+    outline: none;
+    &:active {
+      color: $btn-red-active;
+    }
+  }
+
+  &.grid-answers {
+    .btn-cross {
+      left: 85%;
+      top: 33%;
+
+    }
+
+  }
+}
+
+.level-quantity{
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight:bold;
+}
+.lessons-list-item{
+  font-size: 16px;
+}
+.squares-form {
+height: 400px;
+}
+#showDescription{
+  position: absolute;
+  top: 0;
+}
+
+
+

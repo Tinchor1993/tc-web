@@ -1,0 +1,57 @@
+.sorting-container {
+  height: 100vh;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  position: relative;
+  overflow: hidden;
+
+  .elements-area {
+
+  }
+  .trash-area{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    min-width: 100px;
+    max-width: 200px;
+
+  }
+
+
+
+  .target-area {
+    img {
+      max-width: 30vh;
+      height: auto;
+      max-height: 90vh;
+    }
+    &.active {
+
+    }
+
+    .bg-img {
+      max-width: 100%;
+    }
+  }
+}
+
+
+
+.element-container{
+  position: relative;
+  min-height: 400px;
+
+}
+  .element-item{
+    position: absolute;
+    cursor: move;
+    opacity: 0.9;
+    max-width: 150px;
+
+
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+

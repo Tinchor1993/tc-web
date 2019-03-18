@@ -1,0 +1,37 @@
+@import '../../../styles/theme/varibales';
+
+.toggle-wrapper {
+margin-bottom: 10px;
+  .toggle-btn {
+    width: 30%;
+    margin-right: 5%;
+    padding: 10px 0;
+    cursor: pointer;
+    background: transparent;
+    font-size: 15px;
+    color: $green-main;
+    border: 1px solid $green-main;
+    outline: none;
+    &:last-child{
+      margin-right: 0;
+    }
+    &:hover{
+      background: $green-main;
+      color: white;
+    }
+    &:active{
+      background: lighten( $green-main, 10% );
+    }
+  }
+  .active{
+    color: white;
+    border-width: 2px;
+    font-weight: bold;
+    background: lighten( $green-main, 10% );
+  }
+
+  .toggle-icon{
+    margin-right: 10px;
+    font-weight: bold;
+  }
+}

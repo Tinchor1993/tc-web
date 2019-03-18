@@ -1,0 +1,20 @@
+.timer-qestion{
+
+  font-size: 33px;
+  color: white;
+
+  background: url("/images/game-backgrounds/bg-timer.png") no-repeat top left;
+  padding-bottom: 193px;
+
+  position: absolute;
+  top: 250px;
+  right: 250px;
+
+  > div {
+    padding: 70px 50px 5px 71px;
+    margin-top: 20px;
+    transform: rotate(9deg);
+    min-width: 210px;
+  }
+
+}

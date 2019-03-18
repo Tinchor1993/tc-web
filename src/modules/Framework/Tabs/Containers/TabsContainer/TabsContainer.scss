@@ -1,0 +1,17 @@
+.tabs-container {
+
+  .nav-tabs {
+    padding-left: 22px;
+    border-bottom: 0px;
+
+    >li {
+      >a {
+        cursor: pointer;
+        color: #555555;
+        background-color: rgba(238, 238, 238, 0.5);
+        border-bottom-color: transparent;
+      }
+    }
+  }
+
+}

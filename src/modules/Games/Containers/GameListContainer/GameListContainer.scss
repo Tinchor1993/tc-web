@@ -1,0 +1,74 @@
+@import '../../../../styles/theme/varibales';
+.error-title{
+  text-align: center;
+}
+.game-item-wrapper{
+  position: relative;
+  min-height: 235px;
+}
+.logo {
+  text-align: center;
+  img{
+    max-height: 400px;
+  }
+}
+.game-item{
+  text-align: center;
+  border-radius: 2px;
+  background-color: white;
+  border: 1px solid $gray-default;
+  position: relative;
+  margin: 5px 0px;
+  .game-image{
+    margin-bottom: 10px;
+    height: 150px;
+    img{
+     width: 100%;
+     max-height: 150px;
+    }
+  }
+  .lock {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+    color: white;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  &.isPlayed{
+    .lock{
+      visibility: visible;
+    }
+  }
+  .ti-file
+  {
+    font-size: 150px;
+  }
+  a{
+    font-size: 18px;
+    display: block;
+    text-decoration: none !important;
+    min-height:200px;
+  }
+
+  .game-title{
+    color: #333333 !important;
+  }
+  .game-status{
+    .isPlayed {
+
+    }
+    color: #333333 !important;
+  }
+
+  &.isNotPlayed:hover{
+    transition: all 0.3s;
+    background-color: $green-main;
+    .game-title{color:white !important;}
+    .game-status{color: white !important;}
+  }
+}

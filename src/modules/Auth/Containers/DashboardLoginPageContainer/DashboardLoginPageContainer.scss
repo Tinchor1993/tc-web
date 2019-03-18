@@ -1,0 +1,59 @@
+@import '../../../../styles/theme/varibales';
+
+$form-height: 500px;
+$promo-margin-top: 180px;
+$border-color: rgba(0, 0, 0, 0.3);
+
+.login-container {
+  overflow: hidden;
+  margin: 100px 200px;
+  height: $form-height;
+  background-color: $true-green;
+  border-radius: 5px;
+  border: 1px solid $border-color;
+  box-shadow: 0 0 10px $border-color;
+
+  .form-promo {
+    padding-top: $promo-margin-top;
+    background: darkseagreen url("../../../../images/login-form-bg.png") center bottom;
+    background-size: cover;
+    height: $form-height;
+
+    .heading {
+      p {
+        color: black;
+        //text-shadow: 0px 0px 1px $true-gray;
+      }
+    }
+  }
+
+  .form-login {
+    border: 0px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: white;
+    padding: 100px 15px 15px 70px;
+    min-height: $form-height;
+    //padding-top: 100px;
+    //height: 100vh;
+
+    .heading {
+      padding-bottom: 20px;
+    }
+
+    .btn-sign-in {
+      text-align: center;
+      border: none;
+      border-radius: 5px;
+      background-color: $true-green !important;
+      border-color: $true-green !important;
+
+      &:hover {
+        box-shadow: inset 0 0 5px #5e5e5e;
+      }
+
+      &:focus {
+
+      }
+    }
+  }
+}

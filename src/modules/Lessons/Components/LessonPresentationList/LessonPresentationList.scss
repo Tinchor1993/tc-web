@@ -1,0 +1,44 @@
+@import '../../../../styles/theme/varibales';
+
+
+.lessons-presentation-container{
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: 1px solid $border-color;
+  border-radius: $default-radius;
+
+}
+
+
+.slide-container{
+  max-height: 400px;
+  overflow-y: scroll;
+  padding: 0 20px;
+  background: #edeef0;
+  text-align: center;
+  border: 1px solid $border-color;
+  border-radius: $default-radius;
+}
+.slide-card{
+  position: relative;
+  height: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid $border-color;
+  border-radius: $default-radius;
+  img{
+    width: 100%;
+    height: auto;
+  }
+
+  .slide-close{
+    position: inherit !important;
+    padding: 3px;
+    color: $btn-red;
+    font-weight: bold;
+    &:hover{
+      color: $btn-red-active;
+    }
+
+  }
+}

@@ -1,0 +1,28 @@
+
+2) Stop and Remove old container
+
+sudo docker ps
+sudo docker stop <id/name>
+sudo docker rm <id/name>
+
+3) We remove the old image
+
+sudo docker rmi thinking_capp
+
+4) go to the folder with the project and makes a git pool
+
+cd ThinkingCapApp/
+git pull
+
+5) Preparing a project for the docker
+
+npm install
+npm run predeploy
+
+6) Create a new image
+
+sudo docker build -t thinking_capp .
+
+7)We start the container
+
+sudo docker run -p 80:8080 -d thinking_capp

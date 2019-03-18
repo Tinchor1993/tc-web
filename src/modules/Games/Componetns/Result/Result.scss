@@ -1,0 +1,24 @@
+
+$game-font-color: #34495e;
+
+.result-page {
+  text-align: center;
+
+  h3{
+    margin-top: 61px;
+    font-family: LatoBold;
+    font-size: 50px;
+    color: $game-font-color;
+
+  }
+  p{
+    font-family: LatoRegular;
+    font-size: 48px;
+    color: $game-font-color;
+    margin-top: 50px;
+  }
+  .btn-thc{
+    display: inline-block;
+    margin-top: 80px !important;
+  }
+}

@@ -1,0 +1,15 @@
+.toolbar {
+  &.btn-toolbar {
+    margin-left: 0px;
+  }
+
+  margin-bottom: 10px;
+
+  .btn-group {
+    margin-left: 5px;
+
+    &.no-margin {
+      margin-left: 0px;
+    }
+  }
+}

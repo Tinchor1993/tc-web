@@ -1,0 +1,45 @@
+@import '../../../../styles/theme/varibales';
+
+.card.subject.create {
+  padding-top: 22px;
+
+  p {
+    font-size: 22px;
+  }
+
+  &:hover {
+    border-color: $true-white;
+
+    .btn-add {
+      border-color: $true-white;
+
+      .icon {
+        color: $true-white
+      }
+    }
+  }
+
+  .btn-add {
+    margin-top: 6px;
+    width: 60px;
+    height: 60px;
+
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid $green-main;
+    border-radius: 50%;
+
+    .icon {
+      position: absolute;
+      top: -6px;
+      left: 15px;
+      width: 24px;
+      height: 24px;
+      font-size: 42px;
+      color: $green-main;
+      text-align: center;
+    }
+  }
+
+}

@@ -1,0 +1,34 @@
+@import '../../../../styles/theme/varibales';
+
+.card-wrapper {
+
+  .card {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: $card-margin-bottom;
+    border-radius: $default-radius;
+    background-color: $true-white;
+    border: 1px solid $gray-default;
+    margin-bottom: 5px;
+    text-decoration: none !important;
+
+    color: $text-color;
+
+    &:hover,
+    &:focus {
+      background-color: $green-main;
+      color: $true-white;
+
+      text-decoration: none;
+    }
+
+    .title {
+      font-weight: normal;
+      font-size: 22px;
+    }
+
+    .description {
+      font-size: 16px;
+    }
+  }
+}

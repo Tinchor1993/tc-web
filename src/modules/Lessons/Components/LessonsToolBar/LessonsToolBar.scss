@@ -1,0 +1,19 @@
+@import "../../../../styles/theme/varibales";
+
+.lessons-tool-bar{
+  font-size: 20px;
+  padding:10px 15px;
+  border: 1px solid $border-color;
+  border-radius: $default-radius;
+
+  min-height: 50px;
+  text-align: right;
+  .glyphicon{
+    margin-right: 10px;
+    position: inherit;
+  }
+  .checkbox{
+    text-align: left;
+    font-size: 16px;
+  }
+}

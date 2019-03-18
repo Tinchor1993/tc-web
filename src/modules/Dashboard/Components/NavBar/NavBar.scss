@@ -1,0 +1,65 @@
+@import '../../../../styles/theme/varibales';
+
+$line-height: 2px;
+$icon-width: 22px;
+$text-margin: 14px;
+
+.thinking-navbar {
+  border: 0px !important;
+  border-radius: 0px !important;
+  background-color: $green-dark;
+  margin-bottom: 0px !important;
+
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+
+  .navbar-brand {
+    color: $true-white;
+  }
+
+  .navbar-nav {
+    li {
+      a {
+        color: $true-gray;
+        border-bottom: $line-height solid transparent;
+
+        &:hover,
+        &:focus,
+        &.active {
+          background-color: transparent;
+          color: $true-white;
+          border-bottom-color: $true-white;
+        }
+
+        position: relative;
+        padding-left: $icon-width+$text-margin;
+        padding-right: $text-margin;
+        .icon {
+          left: 6px;
+          position: absolute;
+          font-size: $icon-width;
+        }
+      }
+
+    }
+  }
+
+  .profile-btn {
+    border-color: $true-gray;
+    color: $true-gray;
+    background-color: transparent;
+
+    &:hover,
+    &:focus {
+      background-color: transparent;
+      border-color: $true-white;
+      color: $true-white;
+    }
+
+    &:focus:active {
+      border-color: $true-white !important;
+      color: $true-white !important;
+      background-color: transparent !important;
+      outline: none !important;
+    }
+  }
+}

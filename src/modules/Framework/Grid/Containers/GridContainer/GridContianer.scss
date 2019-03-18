@@ -1,0 +1,47 @@
+.grid {
+  .row-selector {
+    width: 20px;
+    position: relative;
+    margin: 0px auto;
+    label {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: #333;
+      background-color: #fff;
+      border-color: #ccc;
+      border-radius: 4px;
+      box-shadow: inset 0px 1px 1px white, 0px 1px 3px #ccc;
+      &:after {
+        content: '';
+        width: 14px;
+        height: 8px;
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        border: 2px solid #333;
+        border-top: none;
+        border-right: none;
+        background: transparent;
+        opacity: 0;
+        transform: rotate(-45deg);
+      }
+      &:hover::after {
+        opacity: 0.5;
+      }
+    }
+    input[type=checkbox] {
+      visibility: hidden;
+      &:checked + label:after {
+        opacity: 1;
+      }
+    }
+  }
+
+  .rt-tr-group {
+    cursor: pointer;
+  }
+}

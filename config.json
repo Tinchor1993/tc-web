@@ -1,0 +1,44 @@
+{
+  "api": {
+    "prefix": "/api/v1"
+  },
+  "upload": {
+    "dirname": "./tmp"
+  },
+  "redirectURL": {
+    "production":
+      "/api/v1/auth/callback",
+    "development": "/api/v1/auth/callback"
+  },
+  "bucket": {
+    "images": {
+      "name": "tca-image-uploads",
+      "publicPath": "https://tca-image-uploads.s3.amazonaws.com"
+    }
+  },
+  "googlePassport": {
+    "clientId":
+      "960196230358-f09gbk5h74lsnh5dcae0an7ackaluvkt.apps.googleusercontent.com",
+    "clientSecret": "ye9vZoX7x7kPHpIxI63BHlZx"
+  },
+  "tables": {
+    "answers": "thinking_capp_answers",
+    "questions": "thinking_capp_questions",
+    "elements": "thinking_capp_elements",
+    "element_folders": "thinking_capp_element_folders",
+    "elements_type": "thinking_capp_elements_type",
+    "game_result": "thinking_capp_game_result",
+    "quiz": "thinking_capp_quizzes",
+    "lessons": "thinking_capp_lessons",
+    "token": "thinking_capp_access_token",
+    "files": "thinking_capp_files",
+    "subjects": "thinking_capp_subjects",
+    "presentations": "thinking_capp_presentations",
+    "standards": "thinking_capp_standards",
+    "students": "thinking_capp_students",
+    "slides": "thinking_capp_slides",
+    "statistics": "thinking_capp_statistic",
+    "users": "thinking_capp_users"
+  },
+  "temp": "tmp"
+}

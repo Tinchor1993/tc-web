@@ -1,0 +1,14 @@
+.map-container {
+  min-width: 300px;
+  min-height: 300px;
+  overflow: hidden;
+
+
+  .leaflet-marker-icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('./images/marker.png');
+  }
+
+
+}

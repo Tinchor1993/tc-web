@@ -1,0 +1,29 @@
+.lesson{
+  min-height: 200px;
+  max-height: 200px;
+  text-align: left;
+  padding: 24px;
+  overflow: hidden;
+  &.disabled{
+    background: #d3d3d3;
+    &:hover{
+    background: #b9b6b6;
+    color: black;
+  }
+}
+
+  .lesson-name{
+    font-size: 22px;
+    margin-bottom: 10px;
+
+    > a {
+      color: inherit;
+      float: right;
+
+      &:hover {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+}

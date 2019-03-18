@@ -1,0 +1,35 @@
+@import './varibales.scss';
+
+$radius: 4px;
+$header-bg-color: $true-white;
+$border-color: $dark-gray;
+
+.data-grid-container {
+  .ReactTable {
+    border-radius: $radius;
+    border-color: $border-color;
+
+    .rt-thead.-header {
+      background-color: $true-gray;
+      border-bottom: 1px solid $border-color;
+    }
+
+    .rt-tbody {
+      background: $dark-white;
+
+      a {
+        color: $true-green;
+
+        &:hover,
+        &:focus,
+        &:active {
+          text-decoration: none;
+        }
+
+        &:hover {
+          border-bottom: 1px dashed;
+        }
+      }
+    }
+  }
+}

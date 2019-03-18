@@ -1,0 +1,31 @@
+.slide-card {
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  max-height: 300px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .animation {
+    text-shadow: 0.5px 0 #fff;
+    position: absolute;
+    top: -15px;
+    font-size: 10px;
+
+  }
+
+  .slide-media {
+    i{
+      margin-right: 10px;
+    }
+    font-size: 20px;
+
+  }
+
+}

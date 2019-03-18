@@ -1,0 +1,39 @@
+@import '../../../../styles/theme/varibales';
+
+.elements-list {
+  a {
+    text-decoration: none !important;
+  }
+
+  .element-card {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: 1px solid $border-color;
+    border-radius: $default-radius;
+    color: black;
+    .element-media {
+      min-width: 120px;
+      max-width: 120px;
+      overflow: hidden;
+      .empty {
+        padding-top: 30px;
+        text-align: center;
+        font-size: 48px;
+      }
+      .media-object {
+        max-height: 120px;
+        min-height: 120px;
+      }
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.video-icon {
+  color: #c3c3c3;
+  color: #848484;
+  font-size: 20px;
+  margin-left: 11px;
+}

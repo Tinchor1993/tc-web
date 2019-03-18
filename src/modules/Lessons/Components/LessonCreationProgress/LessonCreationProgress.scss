@@ -1,0 +1,64 @@
+@import '../../../../styles/theme/varibales';
+
+$index-width: 20px;
+$name-margin: 12px;
+$height: 70px;
+$items-margin: 60px;
+
+.lesson-progress {
+
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+  border-radius: $default-radius;
+  height: $height;
+  background-color: $true-gray !important;
+  border: 1px solid $border-color !important;
+
+  > li {
+    font-size: 18px;
+    position: relative;
+    margin-right: $items-margin;
+
+    opacity: 0.8;
+
+    &.active {
+      opacity: 1 !important;
+      color: #000 !important;
+    }
+
+    .index {
+      position: absolute;
+      width: $index-width;
+      font-size: 34px;
+      padding-top: 4px;
+    }
+
+    .name {
+      margin-left: $name-margin + $index-width;
+    }
+  }
+
+  > li + li:before {
+    font-family: 'Glyphicons Halflings', serif;
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    left: -44px;
+    top: 14px;
+    font-size: 18px;
+    content: "\e080" !important;
+    padding: 0 5px;
+    color: red;
+  }
+
+  .step {
+    cursor: pointer;
+    opacity: 0.4;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

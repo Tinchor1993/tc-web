@@ -1,0 +1,6 @@
+export const INFO = 'info'
+export const PRESENTATION = 'presentation'
+export const SORTING = 'sorting'
+export const QUIZ = 'quiz'
+export const ORDERING = 'order'
+export const INVITE = 'invite'

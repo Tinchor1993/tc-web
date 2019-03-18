@@ -1,0 +1,44 @@
+.sorting-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  .sorting-pipe {
+    position: absolute;
+    &.top{
+      top: -25%;
+      right: 20%;
+    }
+    &.right{
+      top: 10%;
+      right: 0%;
+    }
+  }
+  .element-name{
+    background-color: rgba(255, 255, 255, 0.34);
+    color: black;
+    margin: 0px 10px;
+  }
+  .results {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4em;
+
+
+    color: #f1f1f1;
+
+    &.correct {
+      background-color: rgba(0, 128, 0, 0.4);
+    }
+
+    &.incorrect {
+      background-color: rgba(255, 0, 0, 0.4);
+    }
+  }
+}

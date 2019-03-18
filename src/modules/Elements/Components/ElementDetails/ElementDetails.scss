@@ -1,0 +1,26 @@
+@import "../../../../styles/theme/varibales";
+.element-details{
+  h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .element-info {
+    padding: 5px 15px;
+    margin-bottom: 30px;
+    border: 1px solid $border-color;
+    border-radius: $default-radius;
+    img{
+      width: 100px;
+      height: auto;
+    }
+    &.title{
+      font-size: 18px;
+    }
+    &.description{
+      font-size: 17px;
+    }
+    &.type{
+      font-size: 17px;
+    }
+  }
+  }

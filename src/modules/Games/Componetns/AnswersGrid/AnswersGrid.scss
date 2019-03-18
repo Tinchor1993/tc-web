@@ -1,0 +1,40 @@
+@import "../../../../styles/theme/varibales";
+
+.answer-grid {
+
+  .answer-item {
+    max-width: 400px;
+    margin: 0 auto;
+
+    > button {
+      width: 100%;
+      padding: 0px;
+    }
+    .quiz-answer-image{
+      background-repeat:no-repeat;
+      background-size: contain;
+      background-position: center
+    }
+    img {
+      max-width: 100%;
+    }
+
+    &.correct {
+      > button {
+        background: #bcd460;
+        border-bottom: 5px solid #aac347;
+        border-left: 1px solid #aac347;
+        border-right: 1px solid #aac347;
+      }
+    }
+
+    &.incorrect {
+      > button {
+        background: $btn-red;
+        border-bottom: 5px solid $btn-red;
+        border-left: 1px solid #aac347;
+        border-right: 1px solid #aac347;
+      }
+    }
+  }
+}

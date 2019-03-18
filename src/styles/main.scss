@@ -1,0 +1,18 @@
+@import 'theme/theme.scss';
+@import 'components';
+@import 'fonts.scss';
+
+body {
+  background-color: $bg-color;
+}
+
+.app-container {
+  min-height: 100vh;
+}
+
+.app-container.login {
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  background-position: center center;
+}
+

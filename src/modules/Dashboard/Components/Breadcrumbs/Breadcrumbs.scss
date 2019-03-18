@@ -1,0 +1,24 @@
+@import '../../../../styles/theme/varibales';
+
+$line-height: 2px;
+$text-margin: 14px;
+
+.thinking-breadcrumb {
+  border-top: 1px $line-height solid $true-white !important;
+  background-color: #ffffff !important;
+  margin-bottom: 0px !important;
+
+
+  > li + li:before {
+    font-family: 'themify';
+    content: "\E649" !important;
+  }
+
+  li {
+
+    a {
+      color: black;
+    }
+
+  }
+}

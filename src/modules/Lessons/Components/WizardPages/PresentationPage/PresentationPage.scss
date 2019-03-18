@@ -1,0 +1,89 @@
+@import "../../../../../styles/theme/varibales";
+
+.presentation-form-container {
+  padding: 20px;
+  border: 1px solid $border-color;
+  border-radius: $default-radius;
+}
+
+.apply {
+  margin-bottom: 10px;
+}
+
+#color {
+  margin-top: 23px;
+}
+
+.slide-container {
+  max-height: 500px;
+  overflow: scroll;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 0px 4px inset;
+
+  .slide-card {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    cursor: pointer;
+    border: 2px solid $border-color;
+    min-height: 100px;
+    max-height: 250px;
+    margin-bottom: 20px;
+
+    .slide-close {
+      position: absolute;
+      padding: 3px;
+      top: 0;
+      left: 90%;
+      color: $btn-red;
+      font-weight: bold;
+
+      &:hover {
+        color: $btn-red-active;
+      }
+    }
+  }
+
+  .active {
+
+    > .slide-card {
+      border-color: $btn-active-green;
+    }
+  }
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .slide {
+    .index {
+      float: left;
+      margin: 3px;
+    }
+
+    .slide-card {
+      margin-left: 20px;
+      margin-right: 20px;
+      max-height: 130px;
+    }
+  }
+}
+.custom-input{
+  margin-bottom: 20px;
+}
+.btn-apply{
+  i{
+    position: absolute;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: -25px;
+  }
+
+}
+
+.color-label{
+  margin-top: 10px;
+}
+.color-input{
+  margin-top: 4px;
+}
+.custom-radio{
+  margin-top:9px;
+}

@@ -1,0 +1,14 @@
+.game-container{
+  position: relative;
+  height: 100vh;
+
+  &.paper {
+    background-image: url("../../../../images/game-backgrounds/bg-login-lite.png");
+  }
+
+  &.water {
+
+  }
+
+}
+
