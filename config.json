@@ -13,13 +13,13 @@
   "bucket": {
     "images": {
       "name": "tca-image-uploads",
-      "publicPath": "https://tca-image-uploads.s3.amazonaws.com"
+      "publicPath": "https://"
     }
   },
   "googlePassport": {
     "clientId":
-      "960196230358-f09gbk5h74lsnh5dcae0an7ackaluvkt.apps.googleusercontent.com",
-    "clientSecret": "ye9vZoX7x7kPHpIxI63BHlZx"
+      "",
+    "clientSecret": ""
   },
   "tables": {
     "answers": "thinking_capp_answers",
