@@ -39,7 +39,7 @@
     "@sendgrid/mail": "^6.3.1",
     "animate.css": "^3.6.1",
     "aws-sdk": "^2.213.1",
-    "axios": "^0.15.3",
+    "axios": "^0.21.1",
     "babel-preset-env": "^1.4.0",
     "body-parser": "^1.17.1",
     "cookie-parser": "^1.4.3",
@@ -101,7 +101,7 @@
   },
   "devDependencies": {
     "autoprefixer": "6.5.4",
-    "axios": "^0.15.3",
+    "axios": "^0.21.1",
     "babel-cli": "^6.24.1",
     "babel-core": "6.20.0",
     "babel-eslint": "7.1.1",
