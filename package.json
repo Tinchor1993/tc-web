@@ -60,7 +60,7 @@
     "net": "^1.0.2",
     "node-json2html": "^1.2.0",
     "node-sass": "^4.8.3",
-    "nodemailer": "^4.6.3",
+    "nodemailer": "^6.4.16",
     "npm-run-all": "^3.1.2",
     "object-assign": "4.1.0",
     "passport": "^0.3.2",
